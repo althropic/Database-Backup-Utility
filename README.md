@@ -491,3 +491,7 @@ For issues and feature requests, please use the GitHub issue tracker.
 - [ ] Multi-database transaction support
 - [ ] Backup encryption
 - [ ] Additional notification channels (Email, PagerDuty, etc.)
+
+## Credits
+
+Created as part of the [Backend Developer Roadmap](https://roadmap.sh/projects/database-backup-utility) learning path.
