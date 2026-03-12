@@ -1,3 +1,39 @@
-# Documentation (keep local)
-*.md
-!README.md
+# Dependencies
+node_modules/
+
+# Backup files
+backups/
+*.sql
+*.json.gz
+*.sqlite
+*.gz
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Build
+dist/
+build/
+
+# Config
+configstore.json
