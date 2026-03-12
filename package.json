@@ -1,0 +1,54 @@
+{
+  "name": "database-backup-utility",
+  "version": "1.0.0",
+  "description": "A CLI utility for backing up and restoring various database types",
+  "main": "src/index.js",
+  "bin": {
+    "db-backup": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/ tests/",
+    "lint:fix": "eslint src/ tests/ --fix"
+  },
+  "keywords": [
+    "database",
+    "backup",
+    "restore",
+    "mysql",
+    "postgresql",
+    "mongodb",
+    "sqlite",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "aws-sdk": "^2.1692.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^8.2.6",
+    "mysql2": "^3.9.7",
+    "node-cron": "^3.0.3",
+    "ora": "^5.4.1",
+    "pg": "^8.11.5",
+    "sqlite3": "^5.1.6",
+    "winston": "^3.13.0",
+    "mongodb": "^6.5.0",
+    "@google-cloud/storage": "^7.10.0",
+    "@azure/storage-blob": "^12.17.0",
+    "zlib": "^1.0.5",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
